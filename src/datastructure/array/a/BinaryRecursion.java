@@ -3,7 +3,7 @@ package datastructure.array.a;
 public class BinaryRecursion {
 	public BinaryRecursion(){}
 	
-	public static int binarySum(int[] data, int low, int high)
+	public int binarySum(int[] data, int low, int high)
 	{
 		if (low<high)
 			return 0;

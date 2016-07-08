@@ -86,6 +86,7 @@ public class SinglyLinkedList<E> implements Cloneable {
 	
 	public SinglyLinkedList<E> clone() throws CloneNotSupportedException
 	{
+		@SuppressWarnings("unchecked")
 		SinglyLinkedList<E> other = (SinglyLinkedList<E>) super.clone();
 		if (size > 0)
 		{
